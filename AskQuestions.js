@@ -37,6 +37,7 @@ function askquestion() {
   if (resp !== 'exit') {
       console.log(checkanswer(resp,random));
       askquestion();
+      //yee haw !
   }    
 }
 
